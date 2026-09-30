@@ -1,0 +1,22 @@
+api_base_url: "https://user.vulbox.com"
+submit_path: "/api/hacker/bugs/bugs"
+timeout: 30
+
+auth:
+  token: "请在这里粘贴浏览器 Cookie 中 vulbox_token 的值"
+  uuid: ""
+  cookies: ""
+
+defaults:
+  bug_display: 1
+  protocol: true
+  use_whatsai: 0
+  session_ids: []
+  draft_id: null
+  use_ticket: 0
+
+# 项目、类别、类型、等级、地区和行业均在 bugs.xlsx 每行中填写。
+# 认证信息不要写在这里。推荐只设置：
+# VULBOX_TOKEN=<浏览器 Cookie 中 vulbox_token 的值>
+# 可选：VULBOX_UUID=<请求头中的 uuid>
+# 可选：VULBOX_COOKIES=<其他Cookie，name=value;name2=value2>

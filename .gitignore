@@ -1,0 +1,11 @@
+config.yaml
+bugs.xlsx
+bugs.xls
+bugs.csv
+submitted.txt
+*.log
+*.network-request
+*.network-response
+.env
+__pycache__/
+*.py[cod]
